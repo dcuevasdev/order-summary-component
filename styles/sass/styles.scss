@@ -1,0 +1,20 @@
+@import "_Variables";
+
+//Global Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: $font;
+  font-size: 62.5%;
+  line-height: 1.5;
+  background-color: $paleBlue;
+}
+body {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100vh;
+}
