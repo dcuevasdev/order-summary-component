@@ -17,4 +17,94 @@ body {
   place-content: center;
   width: 100%;
   height: 100vh;
+  background-image: url("../../assets/images/pattern-background-desktop.svg");
+  background-position-y: -15rem;
+  background-repeat: no-repeat;
+}
+
+//Main Styles
+.card {
+  min-width: 25rem;
+  max-width: 32rem;
+  margin: 0 auto;
+  border-radius: 1.6rem;
+  background-color: $veryPaleBlue;
+  &__image {
+    width: 100%;
+    img {
+      width: 100%;
+      border-radius: 1.6rem 1.6rem 0 0;
+    }
+  }
+  &__information {
+    margin-top: 2.4rem;
+    padding: 0 2.4rem;
+    text-align: center;
+    &-title {
+      font-size: $title;
+      color: $darkBlue;
+    }
+    &-text {
+      margin-top: 0.8rem;
+      font-size: $paragraph;
+      color: $desaturatedBlue;
+    }
+  }
+  &__plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5.6rem;
+    margin: 2.4rem;
+    border-radius: 0.8rem;
+    background-color: #eff1f8;
+    &-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      background-image: url("../../assets/images/icon-music.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    &-info {
+      text-align: center;
+      h3 {
+        color: $darkBlue;
+      }
+      small {
+        font-size: $small;
+        color: $desaturatedBlue;
+      }
+    }
+    &-change a:hover {
+      text-decoration: none;
+      color: $brightBlue;
+    }
+  }
+  &__buttons {
+    margin: 0 2.4rem 1.8rem 2.4rem;
+    button {
+      width: 100%;
+      height: 3.6rem;
+      margin-bottom: 0.8rem;
+      border: none;
+      border-radius: 0.8rem;
+      cursor: pointer;
+    }
+    &-pay {
+      color: $veryPaleBlue;
+      background-color: $brightBlue;
+    }
+    &-pay:hover {
+      background-color: #3829e088;
+    }
+    &-cancel {
+      color: $desaturatedBlue;
+      background: none;
+    }
+    &-cancel:hover {
+      font-weight: 700;
+      color: $darkBlue;
+    }
+  }
 }

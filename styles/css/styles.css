@@ -16,6 +16,95 @@ body {
   place-content: center;
   width: 100%;
   height: 100vh;
+  background-image: url("../../assets/images/pattern-background-desktop.svg");
+  background-position-y: -15rem;
+  background-repeat: no-repeat;
+}
+
+.card {
+  min-width: 25rem;
+  max-width: 32rem;
+  margin: 0 auto;
+  border-radius: 1.6rem;
+  background-color: #f5f7ff;
+}
+.card__image {
+  width: 100%;
+}
+.card__image img {
+  width: 100%;
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+.card__information {
+  margin-top: 2.4rem;
+  padding: 0 2.4rem;
+  text-align: center;
+}
+.card__information-title {
+  font-size: 2rem;
+  color: #1f2f56;
+}
+.card__information-text {
+  margin-top: 0.8rem;
+  font-size: 1.6rem;
+  color: #7280a7;
+}
+.card__plan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5.6rem;
+  margin: 2.4rem;
+  border-radius: 0.8rem;
+  background-color: #eff1f8;
+}
+.card__plan-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-image: url("../../assets/images/icon-music.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card__plan-info {
+  text-align: center;
+}
+.card__plan-info h3 {
+  color: #1f2f56;
+}
+.card__plan-info small {
+  font-size: 1.2rem;
+  color: #7280a7;
+}
+.card__plan-change a:hover {
+  text-decoration: none;
+  color: #3829e0;
+}
+.card__buttons {
+  margin: 0 2.4rem 1.8rem 2.4rem;
+}
+.card__buttons button {
+  width: 100%;
+  height: 3.6rem;
+  margin-bottom: 0.8rem;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+.card__buttons-pay {
+  color: #f5f7ff;
+  background-color: #3829e0;
+}
+.card__buttons-pay:hover {
+  background-color: #3829e088;
+}
+.card__buttons-cancel {
+  color: #7280a7;
+  background: none;
+}
+.card__buttons-cancel:hover {
+  font-weight: 700;
+  color: #1f2f56;
 }
 
 /*# sourceMappingURL=styles.css.map */
