@@ -107,4 +107,20 @@ body {
   color: #1f2f56;
 }
 
+.footer {
+  padding: 2.4rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #1f2f56;
+}
+.footer__link {
+  color: #3829e0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=styles.css.map */

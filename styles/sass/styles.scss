@@ -108,3 +108,20 @@ body {
     }
   }
 }
+
+//Styles footer
+.footer {
+  padding: 2.4rem;
+  font-size: $small;
+  text-align: center;
+  color: $darkBlue;
+  &__link {
+    color: $brightBlue;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  &__link:hover {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+}
